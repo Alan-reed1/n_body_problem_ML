@@ -10,7 +10,7 @@ class LivePlotter:
         self.scat = self.ax.scatter(positions[:, 0], positions[:, 1], s=masses * 10, label="Bodies")
         self.quiv = self.ax.quiver(
             positions[:, 0], positions[:, 1], velocities[:, 0], velocities[:, 1],
-            color='black', scale=50, width=0.002
+            color='black', scale=100, width=0.002
         )
         self.mass_labels = [
             self.ax.text(positions[i, 0] + 0.2, positions[i, 1] + 0.2, f"m={masses[i]:.2f}", fontsize=8)
