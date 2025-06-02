@@ -1,0 +1,2 @@
+This is a project of mine that is going to evolve into an ML trainer. The goal is to generate n-body sims (right now sticking with just 2 bodies but the sim can handle more) and then create json dumps of the sim. Each json dump is checked and assigned a designation of stable or unstable, using an algorithm that is currently under development. 
+For info regarding that, see stability.py. The sim is done using the Velocity Verlet alg and the visuals are done using matplot (I know its slow I'm sorry.) 
